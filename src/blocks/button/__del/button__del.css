@@ -1,0 +1,15 @@
+.button__del {
+    background-image: url('../../../images/Trash.svg');
+    width: 18px;
+    height: 19px;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    border: none;
+} 
+
+.button__del:hover {
+    transition: 0.3s ease-in; 
+    opacity: 0.5;
+} 

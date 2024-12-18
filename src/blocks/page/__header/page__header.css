@@ -1,0 +1,10 @@
+.page__header {
+    margin: 45px auto 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .page__header {
+        margin-top: 28px;
+        margin-bottom: 38.25px;
+    }
+} 

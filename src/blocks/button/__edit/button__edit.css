@@ -1,0 +1,23 @@
+.button__edit {
+    background-image: url('../../../images/edit-button.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #fff;
+    background-position-x: 50%;
+    background-position-y: center;
+
+}
+
+.button__edit:hover {
+    transition: 0.3s ease-in;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+    .button__edit {
+        height: 18px;
+        width: 18px;
+    } 
+} 

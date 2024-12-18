@@ -1,0 +1,24 @@
+.button__save {
+    background-color: #000;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 14px 0 18px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.button__save:hover {
+    transition: 0.3s ease-in;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .button__save {
+        font-size: 14px;
+        line-height: 17px;
+    }
+} 

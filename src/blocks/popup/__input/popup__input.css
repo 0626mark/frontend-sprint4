@@ -1,0 +1,22 @@
+.popup__input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    padding: 0 0 13px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+
+.popup__input:last-of-type {
+    margin-bottom: 48px;
+}
+
+.popup__input:focus {
+    outline-color: #fff6c5;
+}
+
+
+ 

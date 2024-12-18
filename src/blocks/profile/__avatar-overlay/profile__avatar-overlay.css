@@ -1,0 +1,25 @@
+.profile__avatar-overlay {
+    position: absolute;
+    background-image: url('../../../images/VectorCursorAvatar.svg');
+    background-color: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: 50%;
+    width: 121px;
+    height: 121px;
+}
+
+.profile__avatar-overlay:hover {
+    transition: 0.3s ease-in;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 670px) {
+    .profile__avatar-overlay {
+        left: 22%;
+    }
+} 

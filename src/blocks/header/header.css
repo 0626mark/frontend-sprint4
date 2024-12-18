@@ -1,0 +1,18 @@
+.header {
+    border-bottom: 1px solid rgb(84,84,84, 0.7);
+    max-width: 880px;
+    width: calc(100% - 200px*2);
+    display: flex;
+}
+
+@media screen and (max-width: 1120px) {
+    .header {
+        width: calc(100% - 100px*2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+}  

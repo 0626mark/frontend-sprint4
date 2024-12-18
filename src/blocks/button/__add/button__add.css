@@ -1,0 +1,22 @@
+.button__add {
+    background-image: url('../../../images/add-button.svg');
+    width: 150px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.button__add:hover {
+    transition: 0.3s ease-in;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+    .button__add {
+        width: 282px;
+    }
+} 
